@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "dad06997-a32f-4768-86b6-dfa428d14ba7",
+		"name": "S18_ActAsincrona",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25227547"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8889/s18-actasincrona-consumidor/dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/s18-actasincrona-consumidor/dev",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"s18-actasincrona-consumidor",
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/s18-actasincrona-consumidor/prod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/s18-actasincrona-consumidor/prod",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"s18-actasincrona-consumidor",
+						"prod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8889/s18-actasincrona-consumidor/qa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/s18-actasincrona-consumidor/qa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"s18-actasincrona-consumidor",
+						"qa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
